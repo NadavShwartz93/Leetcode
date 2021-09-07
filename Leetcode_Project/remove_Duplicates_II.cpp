@@ -45,6 +45,7 @@ namespace delete_duplicates {
         return creat_List(v);
     }
 
+    //Check all the test-cases.
     bool deleteDuplicates_Test() {
 
         //Test-case 1:

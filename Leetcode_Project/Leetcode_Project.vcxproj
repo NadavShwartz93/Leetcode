@@ -145,17 +145,23 @@
     <ClCompile Include="isPalindrome.cpp" />
     <ClCompile Include="linked_list.cpp" />
     <ClCompile Include="linked_List_Cycle_II.cpp" />
+    <ClCompile Include="depth_of_Binary_Tree.cpp" />
+    <ClCompile Include="merge_k_Sorted_Lists.cpp" />
+    <ClCompile Include="myPow.cpp" />
     <ClCompile Include="remove_Duplicates_II.cpp" />
     <ClCompile Include="removeNthFromEnd.cpp" />
     <ClCompile Include="reverse.cpp" />
     <ClCompile Include="roman_to_Integer.cpp" />
     <ClCompile Include="rotate_Image.cpp" />
+    <ClCompile Include="sorted_Array_to_BST.cpp" />
     <ClCompile Include="Source.cpp" />
+    <ClCompile Include="treeNode.cpp" />
     <ClCompile Include="twoSum.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="header\linked_list.h" />
     <ClInclude Include="header\roman_to_Integer.h" />
+    <ClInclude Include="header\treeNode.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

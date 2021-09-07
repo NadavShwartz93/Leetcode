@@ -10,9 +10,7 @@ using namespace std;
 https://leetcode.com/problems/add-two-numbers/
 */
 namespace addTwoNumbers {
-	//[2,4,3]
-	//[5,6,4]
-	//[7,0,8]
+
 	ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
 
 		vector<int> v;
@@ -67,32 +65,32 @@ namespace addTwoNumbers {
 
 	//Check all the test-cases.
 	bool addTwoNumbers_Test() {
-		//Test-case 1:
 
-		ListNode* t1 = creat_List({ 2,4,3 });//[2,4,3]
-		ListNode* t2 = creat_List({ 5,6,4 });//[5,6,4]
-		ListNode* t = addTwoNumbers(t1, t2);//[7,0,8]
+		//Test-case 1:
+		ListNode* t1 = creat_List({ 2,4,3 });
+		ListNode* t2 = creat_List({ 5,6,4 });
+		ListNode* t = addTwoNumbers(t1, t2);
 		if (not is_equal({ 7,0,8 }, t))
 			return false;
 
 		//Test-case 2:
-		t1 = new ListNode();//[0]
-		t2 = new ListNode();//[0]
-		t = addTwoNumbers(t1, t2);//[0]
+		t1 = new ListNode();
+		t2 = new ListNode();
+		t = addTwoNumbers(t1, t2);
 		if (not is_equal({ 0 }, t))
 			return false;
 
 		//Test-case 3:
-		t1 = creat_List({ 9, 9, 9, 9, 9, 9, 9 });//[9, 9, 9, 9, 9, 9, 9]
-		t2 = creat_List({ 9, 9, 9, 9 });//[9, 9, 9, 9]
-		t = addTwoNumbers(t1, t2);//[[8,9,9,9,0,0,0,1]]
+		t1 = creat_List({ 9, 9, 9, 9, 9, 9, 9 });
+		t2 = creat_List({ 9, 9, 9, 9 });
+		t = addTwoNumbers(t1, t2);
 		if (not is_equal({ 8,9,9,9,0,0,0,1 }, t))
 			return false;
 
 		//Test-case 4:
-		t1 = creat_List({ 9, 9, 9, 9 });//[9, 9, 9, 9]
-		t2 = creat_List({ 9, 9, 9, 9, 9, 9, 9 });//[9, 9, 9, 9, 9, 9, 9]
-		t = addTwoNumbers(t1, t2);//[[8,9,9,9,0,0,0,1]]
+		t1 = creat_List({ 9, 9, 9, 9 });
+		t2 = creat_List({ 9, 9, 9, 9, 9, 9, 9 });
+		t = addTwoNumbers(t1, t2);
 		if (not is_equal({ 8,9,9,9,0,0,0,1 }, t))
 			return false;
 

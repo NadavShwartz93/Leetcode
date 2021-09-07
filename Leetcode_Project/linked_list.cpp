@@ -1,8 +1,8 @@
 #include<vector>
 #include "header/linked_list.h"
 
-//Create List from given vectore.
-ListNode* creat_List(std::vector<int> v) {
+//Create linked-list from given vectore.
+ListNode* creat_List(const std::vector<int>& v) {
 
 	if (v.size() == 0)
 		return nullptr;
@@ -34,7 +34,7 @@ ListNode* creat_List(std::vector<int> v) {
 }
 
 
-//Check if the elements of the given list is equal to the vector.
+//Check if the elements of the given linked-list is equal to the vector.
 bool is_equal(std::vector<int> expected, ListNode* real, int index) {
 
 	if (index == expected.size() and real == NULL)

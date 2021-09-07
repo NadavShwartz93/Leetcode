@@ -48,12 +48,30 @@
     <ClCompile Include="linked_List_Cycle_II.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="myPow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="merge_k_Sorted_Lists.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="depth_of_Binary_Tree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="treeNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sorted_Array_to_BST.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="header\linked_list.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="header\roman_to_Integer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="header\treeNode.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

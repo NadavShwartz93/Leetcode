@@ -41,9 +41,22 @@ namespace delete_duplicates {
 namespace cycle_linked_list {
 	bool detectCycle_Test();
 }
-
+namespace myPow {
+	bool myPow_Test();
+}
+namespace mergeKLists {
+	bool mergeKLists_Test();
+}
+namespace treeDepth {
+	bool maxDepth_Test();
+	bool minDepth_Test();
+}
+namespace sorted_to_BST {
+	bool sortedArrayToBST_Test();
+}
 
 int main() {
+
 	//Start counting the time.
 	time_type start = my_timer::start_timer();
 
@@ -74,6 +87,21 @@ int main() {
 	if(not cycle_linked_list::detectCycle_Test())
 		std::cout << "detectCycle failed" << std::endl;
 
+	if(not myPow::myPow_Test())
+		std::cout << "myPow failed" << std::endl;
+
+	if (not mergeKLists::mergeKLists_Test())
+		std::cout << "mergeKLists failed" << std::endl;
+
+	if (not treeDepth::maxDepth_Test())
+		std::cout << "maxDepth failed" << std::endl;
+
+	if(not treeDepth::minDepth_Test())
+		std::cout << "minDepth failed" << std::endl;
+
+	if(not sorted_to_BST::sortedArrayToBST_Test())
+		std::cout << "sortedArrayToBST failed" << std::endl;
+
 	//Stop the time counting, and print report.
 	my_timer::end_timer(start);
 	return 0;
@@ -90,7 +118,7 @@ namespace my_timer {
 
 		// Store the time difference between start and end
 		auto diff = end - start;
-		cout << "\nTotal Time Taken = \n";
+		cout << "\nTotal Time Taken : \n";
 		cout << chrono::duration <double, milli>(diff).count() << " ms" << endl;
 	}
 };
