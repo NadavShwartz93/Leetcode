@@ -54,6 +54,25 @@ namespace treeDepth {
 namespace sorted_to_BST {
 	bool sortedArrayToBST_Test();
 }
+namespace BST_Level_Order_Traversal {
+	bool levelOrder_Test();
+}
+namespace pathSum {
+	bool hasPathSum_Test();
+}
+namespace BST_Zigzag {
+	bool zigzagLevelOrder_Test();
+}
+namespace valid_BST {
+	bool isValidBST_Test();
+}
+namespace my_atoi {
+	bool myAtoi_Test();
+}
+namespace move_zeroes {
+	bool moveZeroes_Test();
+}
+
 
 int main() {
 
@@ -101,6 +120,24 @@ int main() {
 
 	if(not sorted_to_BST::sortedArrayToBST_Test())
 		std::cout << "sortedArrayToBST failed" << std::endl;
+
+	if(not BST_Level_Order_Traversal::levelOrder_Test())
+		std::cout << "levelOrder failed" << std::endl;
+
+	if(not pathSum::hasPathSum_Test())
+		std::cout << "hasPathSum failed" << std::endl;
+
+	if(not BST_Zigzag::zigzagLevelOrder_Test())
+		std::cout << "zigzagLevelOrder failed" << std::endl;
+
+	if(not valid_BST::isValidBST_Test())
+		std::cout << "isValidBST failed" << std::endl;
+
+	if(not my_atoi::myAtoi_Test())
+		std::cout << "myAtoi failed" << std::endl;
+
+	if(not move_zeroes::moveZeroes_Test())
+		std::cout << "moveZeroes failed" << std::endl;
 
 	//Stop the time counting, and print report.
 	my_timer::end_timer(start);

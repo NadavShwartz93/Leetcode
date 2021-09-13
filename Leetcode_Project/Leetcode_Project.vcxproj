@@ -142,12 +142,15 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="add_two_numbers.cpp" />
+    <ClCompile Include="bst_Level_Order_Traversal.cpp" />
     <ClCompile Include="isPalindrome.cpp" />
     <ClCompile Include="linked_list.cpp" />
     <ClCompile Include="linked_List_Cycle_II.cpp" />
     <ClCompile Include="depth_of_Binary_Tree.cpp" />
     <ClCompile Include="merge_k_Sorted_Lists.cpp" />
+    <ClCompile Include="move_Zeroes.cpp" />
     <ClCompile Include="myPow.cpp" />
+    <ClCompile Include="path_Sum.cpp" />
     <ClCompile Include="remove_Duplicates_II.cpp" />
     <ClCompile Include="removeNthFromEnd.cpp" />
     <ClCompile Include="reverse.cpp" />
@@ -155,8 +158,11 @@
     <ClCompile Include="rotate_Image.cpp" />
     <ClCompile Include="sorted_Array_to_BST.cpp" />
     <ClCompile Include="Source.cpp" />
+    <ClCompile Include="string_to_Integer.cpp" />
     <ClCompile Include="treeNode.cpp" />
     <ClCompile Include="twoSum.cpp" />
+    <ClCompile Include="validate_BST.cpp" />
+    <ClCompile Include="zigzag_Level_Order_Traversal.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="header\linked_list.h" />

@@ -59,7 +59,9 @@ namespace sorted_to_BST{
             TreeNode* expected_res = list_to_bst(res);
             if (not is_equal(root, expected_res))
                 return false;
+            return true;
         };
+
         //Test-case 1:
         std::vector<int> v = { -10,-3,0,5,9 };
         std::vector<int> res = { 0, -3, 9, -10, NULL, 5 };
