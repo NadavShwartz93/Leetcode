@@ -17,4 +17,7 @@ bool is_equal(std::vector<int> expected, ListNode* real, int index = 0);
 //Create linked-list from given vectore.
 ListNode* creat_List(const std::vector<int>& v);
 
+//Print the given matrix.
+void print_matrix(std::vector<std::vector<int>> matrix);
+
 #endif // !_LINKED_LIST

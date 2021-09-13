@@ -18,4 +18,9 @@ TreeNode* list_to_bst(const std::vector<int>& lst);
 
 //Check if the given trees is equal to each other.
 bool is_equal(TreeNode* tree1, TreeNode* tree2);
+
+//This recursive method return the height of the given tree.
+int tree_height(const TreeNode* root);
+
+TreeNode* binary_tree(const std::vector<int>& list, int place = 0);
 #endif // !_TREE_NODE

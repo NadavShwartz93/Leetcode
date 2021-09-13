@@ -1,4 +1,5 @@
 #include<vector>
+#include<iostream>
 #include "header/linked_list.h"
 
 //Create linked-list from given vectore.
@@ -43,4 +44,27 @@ bool is_equal(std::vector<int> expected, ListNode* real, int index) {
 		return true and is_equal(expected, real->next, index + 1);
 	else
 		return false;
+}
+
+
+void print_matrix(std::vector<std::vector<int>> matrix) {
+
+	std::cout << "[";
+	for (int i = 0; i < matrix.size(); i++)
+	{
+		auto v = matrix[i];
+		std::cout << "[";
+		for (int j = 0; j < v.size(); j++)
+		{
+			std::cout << v[j] << " ";
+		}
+
+		if(i+1 == matrix.size())
+			std::cout << "]]";
+		else
+			std::cout << "]";
+		// Newline for new row
+		std::cout << std::endl;
+	}
+
 }
