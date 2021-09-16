@@ -1,4 +1,4 @@
-# Leetcode_Project
+# Leetcode
 
 
 **I will put my solutions to [Leetcode Problems](https://leetcode.com/problemset/all/) in this repository.**
