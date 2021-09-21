@@ -6,19 +6,19 @@ https://leetcode.com/problems/move-zeroes/
 */
 namespace move_zeroes {
 
-    void moveZeroes(std::vector<int>& nums) {
-
-		std::vector<int> res(nums.size(), 0);
+	void moveZeroes(std::vector<int>& nums) {
 
 		int index = 0;
 		for (int i = 0; i < nums.size(); i++)
 		{
-			if (nums[i] != 0) {
-				res[index++] = nums[i];
+			if (nums[index] == 0) {
+				nums.erase(nums.begin() + index);
+				nums.push_back(0);
 			}
+			else
+				index++;
 		}
-		nums = res;
-    }
+	}
 
 	//Check all the test-cases.
 	bool moveZeroes_Test() {
@@ -52,7 +52,6 @@ namespace move_zeroes {
 		moveZeroes(nums);
 		if (nums != expected)
 			return false;
-
 
 		std::cout << "All test-cases for moveZeroes method passed." << std::endl;
 		return true;

@@ -9,19 +9,19 @@ https://leetcode.com/problems/string-to-integer-atoi/
 */
 namespace my_atoi {
 
-    bool in(std::set<char>& s, char val) {
+    bool in(const std::set<char>& s, const char& val) {
         auto res = s.find(val);
         if (res == s.end())
             return false;
         return true;
     }
 
-    int myAtoi(std::string s) {
+    int myAtoi(const std::string& s) {
         int neg_flag = -2;
         long long num = -1;
 
         char mynumbers[] = { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9' };
-        std::set<char> chars_set(mynumbers, mynumbers + 10);
+        const std::set<char> chars_set(mynumbers, mynumbers + 10);
 
         int index = 0;
         bool ziro_first = false;

@@ -15,18 +15,15 @@ namespace my_timer {
 	void end_timer(time_type start);
 };
 namespace twoSum {
-	vector<int> twoSum(vector<int>& nums, int target);
 	bool twoSum_Test();
 };
 namespace reverse {
-	int reverse(int x);
 	bool reverse_Test();
 };
 namespace addTwoNumbers {
 	bool addTwoNumbers_Test();
-}
+};
 namespace isPalindrome {
-	bool isPalindrome(int x);
 	bool isPalindrome_Test();
 };
 namespace rotate_image {
@@ -40,39 +37,65 @@ namespace delete_duplicates {
 };
 namespace cycle_linked_list {
 	bool detectCycle_Test();
-}
+};
 namespace myPow {
 	bool myPow_Test();
-}
+};
 namespace mergeKLists {
 	bool mergeKLists_Test();
-}
+};
 namespace treeDepth {
 	bool maxDepth_Test();
 	bool minDepth_Test();
-}
+};
 namespace sorted_to_BST {
 	bool sortedArrayToBST_Test();
-}
+};
 namespace BST_Level_Order_Traversal {
 	bool levelOrder_Test();
-}
+};
 namespace pathSum {
 	bool hasPathSum_Test();
-}
+};
 namespace BST_Zigzag {
 	bool zigzagLevelOrder_Test();
-}
+};
 namespace valid_BST {
 	bool isValidBST_Test();
-}
+};
 namespace my_atoi {
 	bool myAtoi_Test();
-}
+};
 namespace move_zeroes {
 	bool moveZeroes_Test();
-}
-
+};
+namespace lengthOfLongestSubstring {
+	bool lengthOfLongestSubstring_Test();
+};
+namespace searchInRotated {
+	bool searchInRotated_Test();
+};
+namespace longestCommonPrefix {
+	bool longestCommonPrefix_Test();
+};
+namespace counting_Bits {
+	bool countBits_Test();
+};
+namespace fibonacci_Number {
+	bool fib_Test();
+};
+namespace isSubsequence {
+	bool isSubsequence_Test();
+};
+namespace longestPalindrome {
+	bool longestPalindrome_Test();
+};
+namespace strStr {
+	bool strStr_Test();
+};
+namespace arrayStringsAreEqual {
+	bool arrayStringsAreEqual_Test();
+};
 
 int main() {
 
@@ -138,6 +161,33 @@ int main() {
 
 	if(not move_zeroes::moveZeroes_Test())
 		std::cout << "moveZeroes failed" << std::endl;
+
+	if(not lengthOfLongestSubstring::lengthOfLongestSubstring_Test())
+		std::cout << "lengthOfLongestSubstring failed" << std::endl;
+
+	if (not searchInRotated::searchInRotated_Test())
+		std::cout << "searchInRotated failed" << std::endl;
+
+	if(not longestCommonPrefix::longestCommonPrefix_Test())
+		std::cout << "longestCommonPrefix failed" << std::endl;
+
+	if(not counting_Bits::countBits_Test())
+		std::cout << "counting_Bits failed" << std::endl;
+
+	if(not fibonacci_Number::fib_Test())
+		std::cout << "fib failed" << std::endl;
+
+	if(not isSubsequence::isSubsequence_Test())
+		std::cout << "isSubsequence failed" << std::endl;
+
+	if(not longestPalindrome::longestPalindrome_Test())
+		std::cout << "longestPalindrome failed" << std::endl;
+
+	if(not strStr::strStr_Test())
+		std::cout << "strStr failed" << std::endl;
+
+	if(not arrayStringsAreEqual::arrayStringsAreEqual_Test())
+		std::cout << "arrayStringsAreEqual failed" << std::endl;
 
 	//Stop the time counting, and print report.
 	my_timer::end_timer(start);
