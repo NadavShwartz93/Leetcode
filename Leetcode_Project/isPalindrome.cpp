@@ -7,7 +7,7 @@ using namespace std;
 https://leetcode.com/problems/palindrome-number/
 */
 namespace isPalindrome {
-	bool isPalindrome(int x) {
+	bool isPalindrome(const int& x) {
 		std::string number = to_string(x);
 		int len = number.length();
 

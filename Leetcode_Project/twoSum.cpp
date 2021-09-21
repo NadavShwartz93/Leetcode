@@ -1,5 +1,6 @@
 #include<iostream>
 #include<vector>
+#include<utility>
 
 using namespace std;
 
@@ -8,12 +9,12 @@ using namespace std;
 https://leetcode.com/problems/two-sum/
 */
 namespace twoSum {
-	vector<int> twoSum(vector<int>& nums, int target) {
+	vector<int> twoSum(vector<int>& nums, const int& target) {
 		vector<int> answer(2, 0);
-		int size = nums.size();
-		for (int i = 0; i < size; i++)
+		size_t size = nums.size();
+		for (size_t i = 0; i < size; i++)
 		{
-			for (int j = i + 1; j < size; j++)
+			for (size_t j = i + 1; j < size; j++)
 			{
 				if (nums[i] + nums[j] == target) {
 					answer[0] = i;
@@ -22,6 +23,7 @@ namespace twoSum {
 				}
 			}
 		}
+		
 		return answer;
 	}
 
