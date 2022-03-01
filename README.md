@@ -33,6 +33,7 @@
 | 108 | [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) | [sorted_Array_to_BST.cpp](https://github.com/NadavShwartz93/Leetcode_Project/blob/main/Leetcode_Project/sorted_Array_to_BST.cpp) | Easy |
 | 111 | [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/) | [depth_of_Binary_Tree.cpp](https://github.com/NadavShwartz93/Leetcode_Project/blob/main/Leetcode_Project/depth_of_Binary_Tree.cpp) | Easy |
 | 112 | [Path Sum](https://leetcode.com/problems/path-sum/) | [path_Sum.cpp](https://github.com/NadavShwartz93/Leetcode_Project/blob/main/Leetcode_Project/path_Sum.cpp) | Easy |
+| 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | [linked-list-cycle.cpp](Leetcode_Project/linked-list-cycle.cpp) | Easy |
 | 142 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) | [linked_List_Cycle_II.cpp](https://github.com/NadavShwartz93/Leetcode_Project/blob/main/Leetcode_Project/linked_List_Cycle_II.cpp) | Medium |
 | 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [move_Zeroes.cpp](https://github.com/NadavShwartz93/Leetcode_Project/blob/main/Leetcode_Project/move_Zeroes.cpp) | Easy |
 | 338 | [Counting Bits](https://leetcode.com/problems/counting-bits/) | [counting_Bits.cpp](https://github.com/NadavShwartz93/Leetcode/blob/main/Leetcode_Project/counting_Bits.cpp) | Easy |
